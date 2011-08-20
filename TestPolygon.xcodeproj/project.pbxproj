@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24E1289513FF969A00B756FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E1289413FF969A00B756FA /* UIKit.framework */; };
+		24E1289713FF969A00B756FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E1289613FF969A00B756FA /* Foundation.framework */; };
+		24E1289913FF969A00B756FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E1289813FF969A00B756FA /* CoreGraphics.framework */; };
+		24E1289F13FF969A00B756FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24E1289D13FF969A00B756FA /* InfoPlist.strings */; };
+		24E128A213FF969A00B756FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E128A113FF969A00B756FA /* main.m */; };
+		24E128A513FF969A00B756FA /* TestPolygonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E128A413FF969A00B756FA /* TestPolygonAppDelegate.m */; };
+		24E128A813FF969A00B756FA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24E128A613FF969A00B756FA /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24E1289013FF969A00B756FA /* TestPolygon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPolygon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E1289413FF969A00B756FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		24E1289613FF969A00B756FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24E1289813FF969A00B756FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24E1289C13FF969A00B756FA /* TestPolygon-Info.plist */ = {isa = PBXFileReference; path = "TestPolygon-Info.plist"; sourceTree = "<group>"; };
+		24E1289E13FF969A00B756FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24E128A013FF969A00B756FA /* TestPolygon-Prefix.pch */ = {isa = PBXFileReference; path = "TestPolygon-Prefix.pch"; sourceTree = "<group>"; };
+		24E128A113FF969A00B756FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24E128A313FF969A00B756FA /* TestPolygonAppDelegate.h */ = {isa = PBXFileReference; path = TestPolygonAppDelegate.h; sourceTree = "<group>"; };
+		24E128A413FF969A00B756FA /* TestPolygonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPolygonAppDelegate.m; sourceTree = "<group>"; };
+		24E128A713FF969A00B756FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24E1288D13FF969A00B756FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E1289513FF969A00B756FA /* UIKit.framework in Frameworks */,
+				24E1289713FF969A00B756FA /* Foundation.framework in Frameworks */,
+				24E1289913FF969A00B756FA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24E1288513FF969A00B756FA = {
+			isa = PBXGroup;
+			children = (
+				24E1289A13FF969A00B756FA /* TestPolygon */,
+				24E1289313FF969A00B756FA /* Frameworks */,
+				24E1289113FF969A00B756FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24E1289113FF969A00B756FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24E1289013FF969A00B756FA /* TestPolygon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24E1289313FF969A00B756FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24E1289413FF969A00B756FA /* UIKit.framework */,
+				24E1289613FF969A00B756FA /* Foundation.framework */,
+				24E1289813FF969A00B756FA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24E1289A13FF969A00B756FA /* TestPolygon */ = {
+			isa = PBXGroup;
+			children = (
+				24E128A313FF969A00B756FA /* TestPolygonAppDelegate.h */,
+				24E128A413FF969A00B756FA /* TestPolygonAppDelegate.m */,
+				24E128A613FF969A00B756FA /* MainWindow.xib */,
+				24E1289B13FF969A00B756FA /* Supporting Files */,
+			);
+			path = TestPolygon;
+			sourceTree = "<group>";
+		};
+		24E1289B13FF969A00B756FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24E1289C13FF969A00B756FA /* TestPolygon-Info.plist */,
+				24E1289D13FF969A00B756FA /* InfoPlist.strings */,
+				24E128A013FF969A00B756FA /* TestPolygon-Prefix.pch */,
+				24E128A113FF969A00B756FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24E1288F13FF969A00B756FA /* TestPolygon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24E128AB13FF969A00B756FA /* Build configuration list for PBXNativeTarget "TestPolygon" */;
+			buildPhases = (
+				24E1288C13FF969A00B756FA /* Sources */,
+				24E1288D13FF969A00B756FA /* Frameworks */,
+				24E1288E13FF969A00B756FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestPolygon;
+			productName = TestPolygon;
+			productReference = 24E1289013FF969A00B756FA /* TestPolygon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24E1288713FF969A00B756FA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 24E1288A13FF969A00B756FA /* Build configuration list for PBXProject "TestPolygon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 24E1288513FF969A00B756FA;
+			productRefGroup = 24E1289113FF969A00B756FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24E1288F13FF969A00B756FA /* TestPolygon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24E1288E13FF969A00B756FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E1289F13FF969A00B756FA /* InfoPlist.strings in Resources */,
+				24E128A813FF969A00B756FA /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24E1288C13FF969A00B756FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E128A213FF969A00B756FA /* main.m in Sources */,
+				24E128A513FF969A00B756FA /* TestPolygonAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24E1289D13FF969A00B756FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24E1289E13FF969A00B756FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		24E128A613FF969A00B756FA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24E128A713FF969A00B756FA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24E128A913FF969A00B756FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24E128AA13FF969A00B756FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		24E128AC13FF969A00B756FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestPolygon/TestPolygon-Prefix.pch";
+				INFOPLIST_FILE = "TestPolygon/TestPolygon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		24E128AD13FF969A00B756FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestPolygon/TestPolygon-Prefix.pch";
+				INFOPLIST_FILE = "TestPolygon/TestPolygon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24E1288A13FF969A00B756FA /* Build configuration list for PBXProject "TestPolygon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E128A913FF969A00B756FA /* Debug */,
+				24E128AA13FF969A00B756FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24E128AB13FF969A00B756FA /* Build configuration list for PBXNativeTarget "TestPolygon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E128AC13FF969A00B756FA /* Debug */,
+				24E128AD13FF969A00B756FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24E1288713FF969A00B756FA /* Project object */;
+}
