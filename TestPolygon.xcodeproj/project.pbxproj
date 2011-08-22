@@ -12,8 +12,9 @@
 		24E1289913FF969A00B756FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E1289813FF969A00B756FA /* CoreGraphics.framework */; };
 		24E1289F13FF969A00B756FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24E1289D13FF969A00B756FA /* InfoPlist.strings */; };
 		24E128A213FF969A00B756FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E128A113FF969A00B756FA /* main.m */; };
-		24E128A513FF969A00B756FA /* TestPolygonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E128A413FF969A00B756FA /* TestPolygonAppDelegate.m */; };
-		24E128A813FF969A00B756FA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24E128A613FF969A00B756FA /* MainWindow.xib */; };
+		24E128B413FF991800B756FA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E128B213FF991800B756FA /* MainViewController.m */; };
+		24E128B513FF991800B756FA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24E128B313FF991800B756FA /* MainViewController.xib */; };
+		24E128B813FFA14C00B756FA /* PolygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24E128B713FFA14C00B756FA /* PolygonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +22,15 @@
 		24E1289413FF969A00B756FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		24E1289613FF969A00B756FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24E1289813FF969A00B756FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		24E1289C13FF969A00B756FA /* TestPolygon-Info.plist */ = {isa = PBXFileReference; path = "TestPolygon-Info.plist"; sourceTree = "<group>"; };
+		24E1289C13FF969A00B756FA /* TestPolygon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestPolygon-Info.plist"; sourceTree = "<group>"; };
 		24E1289E13FF969A00B756FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		24E128A013FF969A00B756FA /* TestPolygon-Prefix.pch */ = {isa = PBXFileReference; path = "TestPolygon-Prefix.pch"; sourceTree = "<group>"; };
+		24E128A013FF969A00B756FA /* TestPolygon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestPolygon-Prefix.pch"; sourceTree = "<group>"; };
 		24E128A113FF969A00B756FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		24E128A313FF969A00B756FA /* TestPolygonAppDelegate.h */ = {isa = PBXFileReference; path = TestPolygonAppDelegate.h; sourceTree = "<group>"; };
-		24E128A413FF969A00B756FA /* TestPolygonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPolygonAppDelegate.m; sourceTree = "<group>"; };
-		24E128A713FF969A00B756FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		24E128B113FF991800B756FA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		24E128B213FF991800B756FA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		24E128B313FF991800B756FA /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		24E128B613FFA14C00B756FA /* PolygonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonView.h; sourceTree = "<group>"; };
+		24E128B713FFA14C00B756FA /* PolygonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolygonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +77,12 @@
 		24E1289A13FF969A00B756FA /* TestPolygon */ = {
 			isa = PBXGroup;
 			children = (
-				24E128A313FF969A00B756FA /* TestPolygonAppDelegate.h */,
-				24E128A413FF969A00B756FA /* TestPolygonAppDelegate.m */,
-				24E128A613FF969A00B756FA /* MainWindow.xib */,
 				24E1289B13FF969A00B756FA /* Supporting Files */,
+				24E128B113FF991800B756FA /* MainViewController.h */,
+				24E128B213FF991800B756FA /* MainViewController.m */,
+				24E128B313FF991800B756FA /* MainViewController.xib */,
+				24E128B613FFA14C00B756FA /* PolygonView.h */,
+				24E128B713FFA14C00B756FA /* PolygonView.m */,
 			);
 			path = TestPolygon;
 			sourceTree = "<group>";
@@ -141,7 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24E1289F13FF969A00B756FA /* InfoPlist.strings in Resources */,
-				24E128A813FF969A00B756FA /* MainWindow.xib in Resources */,
+				24E128B513FF991800B756FA /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +158,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				24E128A213FF969A00B756FA /* main.m in Sources */,
-				24E128A513FF969A00B756FA /* TestPolygonAppDelegate.m in Sources */,
+				24E128B413FF991800B756FA /* MainViewController.m in Sources */,
+				24E128B813FFA14C00B756FA /* PolygonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,14 +172,6 @@
 				24E1289E13FF969A00B756FA /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		24E128A613FF969A00B756FA /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24E128A713FF969A00B756FA /* en */,
-			);
-			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
