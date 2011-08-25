@@ -19,7 +19,7 @@
     if (_numberOfSides >= 3)
     {
         numberOfSides = _numberOfSides;
-        avgangle = 360 / numberOfSides;
+        avgangle = 360.0 / numberOfSides;
         [self setNeedsDisplay];
     }
 }
@@ -35,13 +35,12 @@
 - (void)setFrame:(CGRect)frame
 {
     [super setFrame:frame];
+    CGRect bounds = [self bounds];
     //圆心坐标
-    centerPoint = CGPointMake([self bounds].size.width / 2, [self bounds].size.height / 2);
+    centerPoint.x = CGRectGetMidX(bounds);
+    centerPoint.y = CGRectGetMidY(bounds);
     //半径
-    radius = centerPoint.x - 5;
-    if (radius > centerPoint.y - 5)
-        radius = centerPoint.y - 5;
-    
+    radius = MIN(centerPoint.x, centerPoint.y);    
     [self setNeedsDisplay];
 }
 
